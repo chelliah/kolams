@@ -1,0 +1,40 @@
+{
+  "name": "gaultier",
+  "version": "1.0.0",
+  "description": "",
+  "main": "script.js",
+  "scripts": {
+    "dev": "webpack-dev-server --mode development",
+    "prod": "webpack --mode production"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/chelliah/gaultier.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/chelliah/gaultier/issues"
+  },
+  "homepage": "https://github.com/chelliah/gaultier#readme",
+  "dependencies": {
+    "gsap": "^3.2.1",
+    "pixi.js": "^5.2.1",
+    "vue": "^2.6.11"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.8.6",
+    "@babel/preset-env": "^7.8.6",
+    "babel": "^6.23.0",
+    "babel-loader": "^8.0.6",
+    "css-loader": "^3.4.2",
+    "glslify-loader": "^2.0.0",
+    "raw-loader": "^4.0.0",
+    "vue-loader": "^15.9.0",
+    "vue-style-loader": "^4.1.2",
+    "vue-template-compiler": "^2.6.11",
+    "webpack": "^4.41.6",
+    "webpack-cli": "^3.3.11",
+    "webpack-dev-server": "^3.10.3"
+  }
+}
